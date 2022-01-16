@@ -1,10 +1,10 @@
-
+import './Header.css'
 
 const Header = () => {
   return (
     <header className='header'>
       <i className="fas fa-globe-asia" />
-      <p>My Travel Journal!</p>
+      <p className="header-title">My Travel Journal!</p>
     </header>
   )
 }

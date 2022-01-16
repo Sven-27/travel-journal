@@ -1,0 +1,17 @@
+.header {
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-globe-asia{
+  font-size: 24px;
+  color: #fff;
+}
+
+.header-title{
+  margin-left: 10px;
+  color: #fff;
+}
