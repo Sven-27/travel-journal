@@ -5,7 +5,7 @@ import opera from '../img/opera-house.webp'
 const data = [
   {
     id: 1,
-    img: 'https://www.unsplash.com/photos/WLxQvbMyfas',
+    img: fuji,
     country: 'Japan',
     date: '12 Jan, 2021 - 24 Jan, 2021',
     description: `Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters
@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 3,
-    img: 'https://www.unsplash.com/photos/JmuyB_LibRo',
+    img: opera,
     country: 'Australia',
     date: '27 May, 2021 - 8 Jun, 2021',
     description: `The Sydney Opera House is a multi-venue performing arts centre
@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 2,
-    img: 'https://www.unsplash.com/photos/3PeSjpLVtLg',
+    img: fjord,
     country: 'Norway',
     date: '01 Oct, 2021 - 18 Nov, 2021',
     description: `The Geiranger Fjord is a fjord in the Sunnmøre of Møre og
