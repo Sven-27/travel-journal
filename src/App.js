@@ -1,14 +1,9 @@
-import './App.css';
-import data from './data/data'
+import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      {
-        data.map(item => (
-          <img key={item.id} src={item.img} alt="images" />
-        ))
-      }
+    <div className='app'>
+     
     </div>
   );
 }
