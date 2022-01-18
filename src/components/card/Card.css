@@ -1,32 +1,29 @@
 .card{
   display: flex;
+  margin: auto;
   margin-inline: 40px;
   padding: 18px 0;
-  height: 212px;
+  height: 230px;
   border-bottom: 1px solid #f5f5f5;
   max-width: 600px;
   min-width: 360px;
 }
 
 .card--image-container{
-  /* height: 168px; */
-  width: 210px;
+  min-width: 150px;
   border-radius: 5px;
   margin-right: 19px;
+  overflow: hidden;
 }
 
 .card--image{
-  /* object-fit: contain; */
-  height: 100%;
-  background-position: top;
-  background-size: cover;
+  width: 150px;
+  object-fit:contain;
   border-radius: 5px;
 }
 
 .card--main-container{
   height: 100%;
-  display: grid;
-  place-items: center;
 }
 
 .card--main-top{
@@ -35,6 +32,8 @@
   text-align: left;
   padding: 5px 0;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .fa-map-marker-alt{
@@ -64,6 +63,17 @@
   text-align: left;
   font-weight: 700;
   font-size: 25px;
-  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.card--country-date{
+  font-size: 11px;
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card--country-description{
+  font-size: 14px;
 }
 
